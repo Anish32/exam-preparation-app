@@ -1,0 +1,115 @@
+[
+  {
+    "question": "Which SQL clause is used to filter the result set based on a condition?",
+    "type": "MCQ",
+    "options": ["ORDER BY", "GROUP BY", "HAVING", "WHERE"],
+    "answer": "WHERE",
+    "explanation": "The WHERE clause is used to filter records before grouping or aggregation.",
+    "category": "SQL"
+  },
+  {
+    "question": "What is the purpose of the GROUP BY clause in SQL?",
+    "type": "Written",
+    "answer": "To group rows that have the same values in specified columns",
+    "explanation": "GROUP BY groups data to allow aggregate functions like SUM or COUNT to be applied.",
+    "category": "SQL"
+  },
+  {
+    "question": "Which keyword is used to remove duplicate rows in a SQL query?",
+    "type": "MCQ",
+    "options": ["UNIQUE", "DISTINCT", "REMOVE", "ONLY"],
+    "answer": "DISTINCT",
+    "explanation": "DISTINCT eliminates duplicate rows in the result set.",
+    "category": "SQL"
+  },
+  {
+    "question": "How do you rename a column in SQL Server?",
+    "type": "Written",
+    "answer": "sp_rename",
+    "explanation": "Use the sp_rename system stored procedure to rename columns.",
+    "category": "SQL"
+  },
+  {
+    "question": "Which SQL function returns the number of rows in a table?",
+    "type": "MCQ",
+    "options": ["COUNT()", "SUM()", "ROWNUM()", "NUMBER()"],
+    "answer": "COUNT()",
+    "explanation": "COUNT() is used to return the number of rows.",
+    "category": "SQL"
+  },
+  {
+    "question": "What does the INNER JOIN do in SQL?",
+    "type": "Written",
+    "answer": "Returns records with matching values in both tables",
+    "explanation": "INNER JOIN returns records that have matching values in both tables.",
+    "category": "SQL"
+  },
+  {
+    "question": "Which SQL clause is used to sort the results?",
+    "type": "MCQ",
+    "options": ["GROUP BY", "ORDER BY", "SORT", "RANK BY"],
+    "answer": "ORDER BY",
+    "explanation": "ORDER BY sorts the result-set in ascending or descending order.",
+    "category": "SQL"
+  },
+  {
+    "question": "How do you update data in a SQL table?",
+    "type": "Written",
+    "answer": "Using the UPDATE statement",
+    "explanation": "The UPDATE statement is used to modify existing records.",
+    "category": "SQL"
+  },
+  {
+    "question": "What is the result of: SELECT COUNT(*) FROM employees WHERE salary IS NULL?",
+    "type": "MCQ",
+    "options": ["Counts all employees", "Counts only employees with non-null salary", "Counts employees with null salary", "Returns error"],
+    "answer": "Counts employees with null salary",
+    "explanation": "COUNT(*) with WHERE salary IS NULL counts only rows with null salary.",
+    "category": "SQL"
+  },
+  {
+    "question": "What command is used to permanently remove a table in SQL?",
+    "type": "Written",
+    "answer": "DROP TABLE",
+    "explanation": "DROP TABLE removes the table structure and data permanently.",
+    "category": "SQL"
+  },
+  {
+    "question": "What does a LEFT JOIN return?",
+    "type": "MCQ",
+    "options": ["Only matching rows", "All rows from right table", "All rows from left and right", "All rows from left table and matched rows from right table"],
+    "answer": "All rows from left table and matched rows from right table",
+    "explanation": "LEFT JOIN returns all rows from the left table with matching ones from the right.",
+    "category": "SQL"
+  },
+  {
+    "question": "How do you create a new table in SQL?",
+    "type": "Written",
+    "answer": "Using the CREATE TABLE statement",
+    "explanation": "CREATE TABLE allows creation of a new table with defined columns.",
+    "category": "SQL"
+  },
+  {
+    "question": "What is a primary key?",
+    "type": "MCQ",
+    "options": ["Unique identifier", "Duplicate column", "Column that allows nulls", "Foreign reference"],
+    "answer": "Unique identifier",
+    "explanation": "A primary key uniquely identifies each row in a table.",
+    "category": "SQL"
+  },
+  {
+    "question": "Which SQL function is used to find the average value?",
+    "type": "Written",
+    "answer": "AVG()",
+    "explanation": "AVG() returns the average value of a numeric column.",
+    "category": "SQL"
+  },
+  {
+    "question": "What does the HAVING clause do?",
+    "type": "MCQ",
+    "options": ["Filters groups", "Sorts rows", "Creates indexes", "Deletes rows"],
+    "answer": "Filters groups",
+    "explanation": "HAVING is used to filter data after aggregation (GROUP BY).",
+    "category": "SQL"
+  }
+]

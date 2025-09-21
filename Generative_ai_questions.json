@@ -1,0 +1,115 @@
+[
+  {
+    "category": "Generative AI",
+    "type": "MCQ",
+    "question": "Which of the following is an example of a generative model?",
+    "options": ["SVM", "GAN", "Random Forest", "KNN"],
+    "answer": "GAN",
+    "explanation": "GANs (Generative Adversarial Networks) are used for generating new data."
+  },
+  {
+    "category": "Generative AI",
+    "type": "Written",
+    "question": "What is a GAN composed of?",
+    "answer": "A GAN is composed of a generator and a discriminator that compete in a game-theoretic framework.",
+    "explanation": "The generator creates data, and the discriminator tries to detect if it's fake or real."
+  },
+  {
+    "category": "Generative AI",
+    "type": "MCQ",
+    "question": "Which task is NOT typically associated with generative AI?",
+    "options": ["Image generation", "Text summarization", "Classification", "Music creation"],
+    "answer": "Classification",
+    "explanation": "Classification is a discriminative task, not generative."
+  },
+  {
+    "category": "Generative AI",
+    "type": "Written",
+    "question": "What is the role of the generator in GAN?",
+    "answer": "The generator creates fake data to fool the discriminator.",
+    "explanation": "It learns to produce realistic data."
+  },
+  {
+    "category": "Generative AI",
+    "type": "MCQ",
+    "question": "Which of the following uses the 'transformer' architecture?",
+    "options": ["GPT", "SVM", "CNN", "DBSCAN"],
+    "answer": "GPT",
+    "explanation": "GPT (Generative Pretrained Transformer) is based on transformer architecture."
+  },
+  {
+    "category": "Generative AI",
+    "type": "Written",
+    "question": "What is a Diffusion Model?",
+    "answer": "Diffusion models generate images by reversing a noise process over time.",
+    "explanation": "They learn to denoise and create high-quality data."
+  },
+  {
+    "category": "Generative AI",
+    "type": "MCQ",
+    "question": "What makes a model 'generative'?",
+    "options": ["It discriminates categories", "It minimizes loss", "It generates new samples from learned data", "It reduces variance"],
+    "answer": "It generates new samples from learned data",
+    "explanation": "Generative models learn distributions and create new similar data."
+  },
+  {
+    "category": "Generative AI",
+    "type": "Written",
+    "question": "What is temperature in text generation?",
+    "answer": "Temperature controls the randomness in prediction during text generation.",
+    "explanation": "Lower temperature = more deterministic; higher = more creative."
+  },
+  {
+    "category": "Generative AI",
+    "type": "MCQ",
+    "question": "Which model is used in image-to-image translation?",
+    "options": ["CycleGAN", "Random Forest", "KMeans", "BERT"],
+    "answer": "CycleGAN",
+    "explanation": "CycleGAN can translate between image domains without paired data."
+  },
+  {
+    "category": "Generative AI",
+    "type": "Written",
+    "question": "What is prompt engineering?",
+    "answer": "Prompt engineering is crafting input prompts to guide LLMs' outputs effectively.",
+    "explanation": "It's essential for getting desired behavior from generative models."
+  },
+  {
+    "category": "Generative AI",
+    "type": "MCQ",
+    "question": "What is the output of a generative AI model like GPT?",
+    "options": ["A label", "A class", "Generated content", "Loss value"],
+    "answer": "Generated content",
+    "explanation": "GPT produces natural language text as output."
+  },
+  {
+    "category": "Generative AI",
+    "type": "Written",
+    "question": "What is the difference between GPT and BERT?",
+    "answer": "GPT is generative and autoregressive; BERT is bidirectional and used for understanding tasks.",
+    "explanation": "GPT generates; BERT classifies or predicts masked tokens."
+  },
+  {
+    "category": "Generative AI",
+    "type": "MCQ",
+    "question": "What does 'autoregressive' mean in language models?",
+    "options": ["Predicts full sentences", "Predicts next word given previous ones", "Predicts category", "Predicts features"],
+    "answer": "Predicts next word given previous ones",
+    "explanation": "Autoregressive models generate tokens one by one."
+  },
+  {
+    "category": "Generative AI",
+    "type": "Written",
+    "question": "Why are GANs considered unstable during training?",
+    "answer": "Because the generator and discriminator can overpower each other, leading to mode collapse.",
+    "explanation": "Training must balance both models to converge."
+  },
+  {
+    "category": "Generative AI",
+    "type": "MCQ",
+    "question": "What is the loss function for GANs?",
+    "options": ["Cross-entropy", "MSE", "Adversarial loss", "Huber loss"],
+    "answer": "Adversarial loss",
+    "explanation": "GANs use adversarial loss to train the generator and discriminator in opposition."
+  }
+]

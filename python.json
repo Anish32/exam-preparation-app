@@ -1,0 +1,122 @@
+[
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "What is the output of: print(type([]))?",
+    "options": ["<class 'list'>", "<type 'list'>", "<list>", "list"],
+    "answer": "<class 'list'>",
+    "explanation": "The type of an empty list in Python is <class 'list'>."
+  },
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "What does the 'len()' function do?",
+    "options": ["Returns number of arguments", "Returns number of items in an object", "Returns size of an integer", "None"],
+    "answer": "Returns number of items in an object",
+    "explanation": "len() returns the number of elements in an iterable like list, string, tuple."
+  },
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "Which keyword is used to define a function in Python?",
+    "options": ["function", "def", "define", "fun"],
+    "answer": "def",
+    "explanation": "Python uses the 'def' keyword to define a function."
+  },
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "Which of these is a mutable data type in Python?",
+    "options": ["tuple", "list", "string", "int"],
+    "answer": "list",
+    "explanation": "Lists are mutable, while tuples, strings, and integers are immutable."
+  },
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "What is the output of: bool('False')?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": "True",
+    "explanation": "Non-empty strings are truthy in Python, even if the string is 'False'."
+  },
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "Which symbol is used to comment a single line in Python?",
+    "options": ["//", "/* */", "#", "--"],
+    "answer": "#",
+    "explanation": "Python uses '#' to indicate single-line comments."
+  },
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "Which function converts a string to a list of characters?",
+    "options": ["split()", "list()", "char()", "str()"],
+    "answer": "list()",
+    "explanation": "list('abc') returns ['a', 'b', 'c']."
+  },
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "What does the 'range(5)' function return?",
+    "options": ["[1, 2, 3, 4, 5]", "[0, 1, 2, 3, 4]", "[0, 1, 2, 3, 4, 5]", "[1, 2, 3, 4]"],
+    "answer": "[0, 1, 2, 3, 4]",
+    "explanation": "range(5) returns numbers from 0 up to but not including 5."
+  },
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "What does 'pass' do in Python?",
+    "options": ["Skips iteration", "Raises error", "Acts as a placeholder", "Stops loop"],
+    "answer": "Acts as a placeholder",
+    "explanation": "'pass' is used when a statement is syntactically required but no action is needed."
+  },
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "How do you handle exceptions in Python?",
+    "options": ["try-except", "catch-throw", "do-catch", "error-catch"],
+    "answer": "try-except",
+    "explanation": "Python uses try-except blocks to catch and handle exceptions."
+  },
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "What is the output of: print(2 ** 3)?",
+    "options": ["6", "8", "9", "16"],
+    "answer": "8",
+    "explanation": "The '**' operator is used for exponentiation. 2 ** 3 = 8."
+  },
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "Which data type is used to store key-value pairs?",
+    "options": ["list", "tuple", "set", "dictionary"],
+    "answer": "dictionary",
+    "explanation": "Dictionaries store data in key-value format in Python."
+  },
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "What does the 'is' operator compare?",
+    "options": ["Value equality", "Data type", "Memory address", "None"],
+    "answer": "Memory address",
+    "explanation": "'is' checks if two variables refer to the same object in memory."
+  },
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "Which function is used to get user input in Python 3?",
+    "options": ["input()", "read()", "scan()", "get()"],
+    "answer": "input()",
+    "explanation": "The input() function reads a line from input and returns it as a string."
+  },
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "Which method is used to add an item to a list?",
+    "options": ["add()", "append()", "insert()", "extend()"],
+    "answer": "append()",
+    "explanation": "append() adds a single element to the end of a list."
+  }
+]

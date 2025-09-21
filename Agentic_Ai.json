@@ -1,0 +1,115 @@
+[
+  {
+    "category": "Agentic AI",
+    "type": "MCQ",
+    "question": "What is Agentic AI primarily focused on?",
+    "options": ["Perception and classification", "Predictive modeling", "Autonomous decision-making and task execution", "Reinforcement learning only"],
+    "answer": "Autonomous decision-making and task execution",
+    "explanation": "Agentic AI focuses on building agents that can perceive, plan, and act autonomously to achieve goals."
+  },
+  {
+    "category": "Agentic AI",
+    "type": "Written",
+    "question": "Define an AI Agent.",
+    "answer": "An AI agent is a system that perceives its environment and takes actions to achieve specific goals.",
+    "explanation": "AI agents use sensors for perception and actuators for action, guided by internal logic or learning."
+  },
+  {
+    "category": "Agentic AI",
+    "type": "MCQ",
+    "question": "Which component is NOT part of the typical Agentic AI loop?",
+    "options": ["Perception", "Planning", "Execution", "Compilation"],
+    "answer": "Compilation",
+    "explanation": "The main components are Perception, Planning, and Execution; Compilation is not part of the loop."
+  },
+  {
+    "category": "Agentic AI",
+    "type": "Written",
+    "question": "What is the role of the planning module in an agentic system?",
+    "answer": "It determines the sequence of actions the agent should take to achieve its goal.",
+    "explanation": "The planning module creates strategies for task completion based on goals and environmental input."
+  },
+  {
+    "category": "Agentic AI",
+    "type": "MCQ",
+    "question": "Which framework is commonly used to implement multi-agent AI systems?",
+    "options": ["LangChain", "OpenCV", "TensorFlow", "ROS (Robot Operating System)"],
+    "answer": "ROS (Robot Operating System)",
+    "explanation": "ROS is widely used for robotics and agent-based AI systems that require autonomy and coordination."
+  },
+  {
+    "category": "Agentic AI",
+    "type": "Written",
+    "question": "Name one real-world application of Agentic AI.",
+    "answer": "Autonomous vehicles",
+    "explanation": "Self-driving cars are agentic systems that perceive, plan, and act in dynamic environments."
+  },
+  {
+    "category": "Agentic AI",
+    "type": "MCQ",
+    "question": "What is the significance of goal-oriented behavior in Agentic AI?",
+    "options": ["It allows agents to learn faster", "It ensures agents act in a way that maximizes long-term objectives", "It limits the agent’s autonomy", "It simplifies neural network design"],
+    "answer": "It ensures agents act in a way that maximizes long-term objectives",
+    "explanation": "Goal-oriented behavior drives decision-making processes in agents toward desired outcomes."
+  },
+  {
+    "category": "Agentic AI",
+    "type": "Written",
+    "question": "Explain the difference between a reactive agent and a deliberative agent.",
+    "answer": "Reactive agents respond to stimuli without internal modeling, while deliberative agents plan actions using internal models.",
+    "explanation": "Reactive agents are fast but less flexible; deliberative agents think before acting, allowing more complex behavior."
+  },
+  {
+    "category": "Agentic AI",
+    "type": "MCQ",
+    "question": "Which of the following is a key advantage of Agentic AI systems?",
+    "options": ["They are deterministic", "They avoid all human involvement", "They adapt and perform tasks autonomously", "They only work in static environments"],
+    "answer": "They adapt and perform tasks autonomously",
+    "explanation": "Agentic AI is built to adapt to changing environments and act without continuous human input."
+  },
+  {
+    "category": "Agentic AI",
+    "type": "Written",
+    "question": "What is a multi-agent system?",
+    "answer": "A system composed of multiple interacting intelligent agents.",
+    "explanation": "These systems allow agents to collaborate or compete to achieve individual or collective goals."
+  },
+  {
+    "category": "Agentic AI",
+    "type": "MCQ",
+    "question": "Which architecture supports reasoning and learning for Agentic AI?",
+    "options": ["SOAR", "YOLO", "RNN", "CNN"],
+    "answer": "SOAR",
+    "explanation": "SOAR is a cognitive architecture supporting decision-making and learning in agents."
+  },
+  {
+    "category": "Agentic AI",
+    "type": "Written",
+    "question": "Mention one open-source tool to implement Agentic AI with LLMs.",
+    "answer": "LangGraph",
+    "explanation": "LangGraph enables building multi-agent workflows using LLMs and programmable logic."
+  },
+  {
+    "category": "Agentic AI",
+    "type": "MCQ",
+    "question": "Which of the following is NOT a challenge in Agentic AI?",
+    "options": ["Autonomy", "Coordination", "Sensor failure", "Word embedding"],
+    "answer": "Word embedding",
+    "explanation": "Word embedding is an NLP technique, not a core challenge in Agentic AI."
+  },
+  {
+    "category": "Agentic AI",
+    "type": "Written",
+    "question": "What is the key difference between traditional AI and Agentic AI?",
+    "answer": "Traditional AI is task-specific, Agentic AI focuses on autonomy and goal-driven behaviors.",
+    "explanation": "Agentic AI combines perception, planning, and acting for autonomous problem-solving."
+  },
+  {
+    "category": "Agentic AI",
+    "type": "MCQ",
+    "question": "Which of the following best describes an autonomous agent?",
+    "options": ["A system that responds to database queries", "A model that translates text", "A system that perceives, reasons, and acts without human control", "A tool that detects anomalies in logs"],
+    "answer": "A system that perceives, reasons, and acts without human control",
+    "explanation": "Autonomous agents operate independently in dynamic environments."
+  }
+]

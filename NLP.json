@@ -1,0 +1,115 @@
+[
+  {
+    "category": "NLP",
+    "type": "MCQ",
+    "question": "What does POS tagging stand for in NLP?",
+    "options": ["Part of Speech tagging", "Point of Syntax tagging", "Parsing of Sentences", "Probability of Sentence"],
+    "answer": "Part of Speech tagging",
+    "explanation": "POS tagging refers to identifying each word’s grammatical category such as noun, verb, adjective, etc."
+  },
+  {
+    "category": "NLP",
+    "type": "MCQ",
+    "question": "Which of the following is NOT a stop word?",
+    "options": ["the", "a", "is", "data"],
+    "answer": "data",
+    "explanation": "Stop words are common words that are often removed; 'data' is not one of them."
+  },
+  {
+    "category": "NLP",
+    "type": "Written",
+    "question": "What is stemming in NLP?",
+    "answer": "Stemming is the process of reducing a word to its root form by removing suffixes.",
+    "explanation": "E.g., 'playing', 'played', 'plays' → 'play'."
+  },
+  {
+    "category": "NLP",
+    "type": "MCQ",
+    "question": "Which algorithm is used for topic modeling?",
+    "options": ["K-Means", "LDA", "PCA", "Logistic Regression"],
+    "answer": "LDA",
+    "explanation": "Latent Dirichlet Allocation (LDA) is widely used for topic modeling."
+  },
+  {
+    "category": "NLP",
+    "type": "Written",
+    "question": "What is Named Entity Recognition (NER)?",
+    "answer": "NER is the process of identifying entities such as names, organizations, and locations in text.",
+    "explanation": "NER extracts structured data from unstructured text."
+  },
+  {
+    "category": "NLP",
+    "type": "MCQ",
+    "question": "Which model architecture is most common in recent NLP tasks?",
+    "options": ["RNN", "CNN", "Transformer", "Naive Bayes"],
+    "answer": "Transformer",
+    "explanation": "Transformer-based models like BERT and GPT dominate NLP tasks today."
+  },
+  {
+    "category": "NLP",
+    "type": "Written",
+    "question": "What is the difference between stemming and lemmatization?",
+    "answer": "Stemming removes suffixes to get root forms; lemmatization uses vocabulary and morphology to get base words.",
+    "explanation": "Lemmatization gives meaningful root words; stemming may not."
+  },
+  {
+    "category": "NLP",
+    "type": "MCQ",
+    "question": "Which library is commonly used for NLP in Python?",
+    "options": ["Seaborn", "NumPy", "spaCy", "Matplotlib"],
+    "answer": "spaCy",
+    "explanation": "spaCy is designed specifically for NLP tasks."
+  },
+  {
+    "category": "NLP",
+    "type": "Written",
+    "question": "What is TF-IDF in NLP?",
+    "answer": "TF-IDF stands for Term Frequency-Inverse Document Frequency and measures word importance.",
+    "explanation": "It helps weigh words based on their rarity across documents."
+  },
+  {
+    "category": "NLP",
+    "type": "MCQ",
+    "question": "What is the main goal of text classification?",
+    "options": ["To generate text", "To label text into categories", "To detect syntax errors", "To remove punctuation"],
+    "answer": "To label text into categories",
+    "explanation": "Text classification assigns text to predefined labels or categories."
+  },
+  {
+    "category": "NLP",
+    "type": "Written",
+    "question": "What are word embeddings?",
+    "answer": "Word embeddings are vector representations of words capturing semantic meaning.",
+    "explanation": "They map similar words to nearby points in vector space."
+  },
+  {
+    "category": "NLP",
+    "type": "MCQ",
+    "question": "Which one is a pre-trained language model?",
+    "options": ["XGBoost", "KNN", "BERT", "ARIMA"],
+    "answer": "BERT",
+    "explanation": "BERT (Bidirectional Encoder Representations from Transformers) is a pre-trained NLP model."
+  },
+  {
+    "category": "NLP",
+    "type": "Written",
+    "question": "What is tokenization?",
+    "answer": "Tokenization is the process of splitting text into smaller units like words or sentences.",
+    "explanation": "These units (tokens) are the basis for further NLP tasks."
+  },
+  {
+    "category": "NLP",
+    "type": "MCQ",
+    "question": "Which model is best for sequence labeling tasks like NER?",
+    "options": ["CNN", "SVM", "BiLSTM-CRF", "Naive Bayes"],
+    "answer": "BiLSTM-CRF",
+    "explanation": "BiLSTM-CRF is widely used for structured prediction in NLP."
+  },
+  {
+    "category": "NLP",
+    "type": "Written",
+    "question": "What is the difference between Bag of Words and Word2Vec?",
+    "answer": "Bag of Words is frequency-based; Word2Vec captures semantic relationships between words.",
+    "explanation": "Word2Vec represents words in a dense vector space."
+  }
+]

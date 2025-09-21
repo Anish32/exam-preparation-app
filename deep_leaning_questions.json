@@ -1,0 +1,116 @@
+[
+  {
+    "category": "Deep Learning",
+    "type": "MCQ",
+    "question": "What is the main difference between CNN and RNN?",
+    "options": ["CNN uses convolution layers, RNN uses recurrent layers", "CNN is used for sequences, RNN for images", "RNN is faster than CNN", "CNN cannot be used for classification"],
+    "answer": "CNN uses convolution layers, RNN uses recurrent layers",
+    "explanation": "CNNs use filters for spatial feature extraction; RNNs handle sequential data through feedback loops."
+  },
+  {
+    "category": "Deep Learning",
+    "type": "MCQ",
+    "question": "What problem does dropout regularization solve?",
+    "options": ["Overfitting", "Underfitting", "Exploding gradients", "Vanishing gradients"],
+    "answer": "Overfitting",
+    "explanation": "Dropout randomly deactivates neurons to prevent co-adaptation, helping reduce overfitting."
+  },
+  {
+    "category": "Deep Learning",
+    "type": "MCQ",
+    "question": "Which activation function is most commonly used in hidden layers of deep networks?",
+    "options": ["Sigmoid", "Tanh", "ReLU", "Softmax"],
+    "answer": "ReLU",
+    "explanation": "ReLU (Rectified Linear Unit) is computationally efficient and helps avoid vanishing gradients."
+  },
+  {
+    "category": "Deep Learning",
+    "type": "MCQ",
+    "question": "Which of the following is a technique to speed up deep learning training?",
+    "options": ["Dropout", "Batch Normalization", "L2 Regularization", "Early Stopping"],
+    "answer": "Batch Normalization",
+    "explanation": "BatchNorm normalizes activations and reduces internal covariate shift, speeding up training."
+  },
+  {
+    "category": "Deep Learning",
+    "type": "MCQ",
+    "question": "Which layer reduces the spatial dimensions in CNNs?",
+    "options": ["Dense", "Dropout", "Pooling", "BatchNorm"],
+    "answer": "Pooling",
+    "explanation": "Pooling layers downsample feature maps to reduce computation and overfitting."
+  },
+  {
+    "category": "Deep Learning",
+    "type": "MCQ",
+    "question": "Which RNN variant helps solve long-term dependency issues?",
+    "options": ["Vanilla RNN", "LSTM", "Softmax", "Dropout"],
+    "answer": "LSTM",
+    "explanation": "LSTMs use gates to retain or discard information, solving long-term dependency problems."
+  },
+  {
+    "category": "Deep Learning",
+    "type": "MCQ",
+    "question": "What is the purpose of the softmax function in neural networks?",
+    "options": ["Normalization", "Regularization", "Convert logits to probabilities", "Speed up training"],
+    "answer": "Convert logits to probabilities",
+    "explanation": "Softmax transforms raw scores into probabilities for multi-class classification."
+  },
+  {
+    "category": "Deep Learning",
+    "type": "MCQ",
+    "question": "Which optimizer adapts learning rates for each parameter?",
+    "options": ["SGD", "Momentum", "Adam", "NAG"],
+    "answer": "Adam",
+    "explanation": "Adam optimizer uses adaptive learning rates and momentum, improving convergence."
+  },
+  {
+    "category": "Deep Learning",
+    "type": "MCQ",
+    "question": "Which of these networks is used for image classification?",
+    "options": ["RNN", "GAN", "CNN", "Transformer"],
+    "answer": "CNN",
+    "explanation": "CNNs are designed for spatial data like images due to convolutional operations."
+  },
+  {
+    "category": "Deep Learning",
+    "type": "Read",
+    "question": "What is transfer learning?",
+    "answer": "Transfer learning uses a pretrained model on a new, related task, reducing training time and data requirements.",
+    "explanation": "It leverages learned features from large datasets to improve performance on smaller datasets."
+  },
+  {
+    "category": "Deep Learning",
+    "type": "Read",
+    "question": "What is a convolution in CNNs?",
+    "answer": "A convolution is a mathematical operation where a filter is applied to an input to extract features like edges or textures.",
+    "explanation": "It detects local patterns by sliding a kernel over input data."
+  },
+  {
+    "category": "Deep Learning",
+    "type": "Read",
+    "question": "What is the vanishing gradient problem in deep networks?",
+    "answer": "In deep networks, gradients become very small during backpropagation, preventing weight updates in early layers.",
+    "explanation": "Vanishing gradients occur due to repeated multiplication of small values, making learning in earlier layers difficult."
+  },
+  {
+    "category": "Deep Learning",
+    "type": "Read",
+    "question": "What is backpropagation?",
+    "answer": "Backpropagation is an algorithm to compute gradients and update weights in a neural network by propagating error backward.",
+    "explanation": "It uses the chain rule of calculus to efficiently compute partial derivatives of loss w.r.t. weights."
+  },
+  {
+    "category": "Deep Learning",
+    "type": "Read",
+    "question": "Define overfitting in deep learning.",
+    "answer": "Overfitting is when a model performs well on training data but poorly on unseen data due to learning noise or patterns specific to the training set.",
+    "explanation": "Overfitted models fail to generalize, often due to too many parameters or insufficient data."
+  },
+  {
+    "category": "Deep Learning",
+    "type": "Read",
+    "question": "What is an epoch in training a neural network?",
+    "answer": "An epoch is one complete pass through the entire training dataset.",
+    "explanation": "Multiple epochs are used to iteratively refine the model weights."
+  }
+]

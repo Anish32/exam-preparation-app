@@ -1,0 +1,116 @@
+[
+  {
+    "category": "Machine Learning",
+    "type": "MCQ",
+    "question": "Which of the following is a supervised learning algorithm?",
+    "options": ["K-Means", "Linear Regression", "PCA", "Apriori"],
+    "answer": "Linear Regression",
+    "explanation": "Linear Regression is a supervised learning algorithm used for prediction."
+  },
+  {
+    "category": "Machine Learning",
+    "type": "MCQ",
+    "question": "Which metric is best suited for imbalanced classification problems?",
+    "options": ["Accuracy", "Precision", "Recall", "F1 Score"],
+    "answer": "F1 Score",
+    "explanation": "F1 Score balances precision and recall, making it ideal for imbalanced datasets."
+  },
+  {
+    "category": "Machine Learning",
+    "type": "Written",
+    "question": "What is overfitting in machine learning?",
+    "answer": "Overfitting is when a model learns noise in the training data and performs poorly on unseen data.",
+    "explanation": "Overfitting occurs when the model captures irrelevant details specific to the training data."
+  },
+  {
+    "category": "Machine Learning",
+    "type": "Written",
+    "question": "Define bias-variance tradeoff.",
+    "answer": "Bias-variance tradeoff is the balance between model simplicity and complexity that affects performance.",
+    "explanation": "High bias underfits and high variance overfits. The goal is to balance both for generalization."
+  },
+  {
+    "category": "Machine Learning",
+    "type": "MCQ",
+    "question": "What does PCA do?",
+    "options": ["Classification", "Dimensionality Reduction", "Clustering", "Regression"],
+    "answer": "Dimensionality Reduction",
+    "explanation": "PCA reduces dimensions by projecting data onto principal components."
+  },
+  {
+    "category": "Machine Learning",
+    "type": "MCQ",
+    "question": "Which algorithm is used for clustering?",
+    "options": ["Logistic Regression", "K-Means", "Naive Bayes", "Linear Regression"],
+    "answer": "K-Means",
+    "explanation": "K-Means is an unsupervised algorithm used for clustering data points."
+  },
+  {
+    "category": "Machine Learning",
+    "type": "Written",
+    "question": "What is the purpose of cross-validation?",
+    "answer": "Cross-validation is used to assess the generalizability of a model by testing on multiple splits.",
+    "explanation": "It helps reduce overfitting by validating the model on unseen data."
+  },
+  {
+    "category": "Machine Learning",
+    "type": "MCQ",
+    "question": "Which of the following is not a tree-based model?",
+    "options": ["Decision Tree", "Random Forest", "Gradient Boosting", "K-Nearest Neighbors"],
+    "answer": "K-Nearest Neighbors",
+    "explanation": "KNN is a lazy learner and not a tree-based model."
+  },
+  {
+    "category": "Machine Learning",
+    "type": "Written",
+    "question": "What is feature engineering?",
+    "answer": "Feature engineering is the process of creating new input features from raw data.",
+    "explanation": "It enhances model performance by providing more relevant data."
+  },
+  {
+    "category": "Machine Learning",
+    "type": "MCQ",
+    "question": "What is the output of a regression model?",
+    "options": ["Class label", "Probability", "Numerical value", "Cluster number"],
+    "answer": "Numerical value",
+    "explanation": "Regression models predict continuous values."
+  },
+  {
+    "category": "Machine Learning",
+    "type": "Written",
+    "question": "What is regularization in ML?",
+    "answer": "Regularization is a technique to prevent overfitting by adding a penalty to model complexity.",
+    "explanation": "It discourages overly complex models."
+  },
+  {
+    "category": "Machine Learning",
+    "type": "MCQ",
+    "question": "Which library is commonly used for machine learning in Python?",
+    "options": ["Seaborn", "Scikit-learn", "NumPy", "Matplotlib"],
+    "answer": "Scikit-learn",
+    "explanation": "Scikit-learn provides tools for classification, regression, clustering, and more."
+  },
+  {
+    "category": "Machine Learning",
+    "type": "MCQ",
+    "question": "Which of the following can help improve model performance?",
+    "options": ["More training data", "More features", "Tuning hyperparameters", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "All these steps can improve model accuracy and generalization."
+  },
+  {
+    "category": "Machine Learning",
+    "type": "Written",
+    "question": "What is the role of the learning rate in gradient descent?",
+    "answer": "Learning rate determines the step size to update model weights during training.",
+    "explanation": "Too high can overshoot, too low can slow convergence."
+  },
+  {
+    "category": "Machine Learning",
+    "type": "MCQ",
+    "question": "Which method is used to handle missing values?",
+    "options": ["Drop rows", "Imputation", "Interpolation", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "All are valid techniques for handling missing data."
+  }
+]

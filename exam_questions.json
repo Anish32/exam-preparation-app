@@ -1,0 +1,62 @@
+{
+  "Python": [
+    {
+      "question": "What is a Python list comprehension?",
+      "type": "Written",
+      "answer": "A concise way to create lists using a single line of code",
+      "explanation": "List comprehensions provide a shorter syntax to create new lists based on existing iterables."
+    },
+    {
+      "question": "Which keyword is used to define a function in Python?",
+      "type": "MCQ",
+      "options": ["func", "def", "define", "lambda"],
+      "answer": "def",
+      "explanation": "The 'def' keyword is used to declare a function in Python."
+    }
+  ],
+  "SQL": [
+    {
+      "question": "What does the SQL SELECT statement do?",
+      "type": "Written",
+      "answer": "It retrieves data from a database",
+      "explanation": "SELECT is used to fetch data from tables in SQL."
+    },
+    {
+      "question": "Which SQL clause is used to filter rows?",
+      "type": "MCQ",
+      "options": ["WHERE", "GROUP BY", "ORDER BY", "JOIN"],
+      "answer": "WHERE",
+      "explanation": "WHERE is used to filter records based on conditions."
+    }
+  ],
+  "Deep Learning": [
+    {
+      "question": "What is the vanishing gradient problem?",
+      "type": "Written",
+      "answer": "It refers to gradients becoming too small for effective learning",
+      "explanation": "In deep networks, backpropagated gradients may vanish, making it hard to update earlier layers."
+    },
+    {
+      "question": "Which activation function can help with vanishing gradients?",
+      "type": "MCQ",
+      "options": ["Sigmoid", "Tanh", "ReLU", "Softmax"],
+      "answer": "ReLU",
+      "explanation": "ReLU avoids vanishing gradients by keeping gradients constant for positive inputs."
+    }
+  ],
+  "Agentic AI": [
+    {
+      "question": "What is an agent in Agentic AI?",
+      "type": "Written",
+      "answer": "An autonomous system that can take actions to achieve goals",
+      "explanation": "Agents in AI are entities that perceive their environment and act upon it to reach objectives."
+    },
+    {
+      "question": "Which framework helps build agent workflows?",
+      "type": "MCQ",
+      "options": ["HuggingFace", "LangChain", "OpenCV", "NumPy"],
+      "answer": "LangChain",
+      "explanation": "LangChain is designed to help developers build applications with LLM agents."
+    }
+  ]
+}

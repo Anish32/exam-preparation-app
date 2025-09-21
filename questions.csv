@@ -1,0 +1,6 @@
+topic,question,option_1,option_2,option_3,option_4,answer,type
+Python,What does the len() function do?,Returns size,Adds items,Deletes item,Sorts item,Returns size,mcq
+Python,What is the output of print(2**3)?,5,6,8,9,8,mcq
+SQL,What does SQL stand for?,Structured Query Language,Strong Question Language,Simple Query Language,Stylish Query Language,Structured Query Language,mcq
+Python,Explain the use of def in Python.,,,,,Used to define a function,written
+SQL,What is a JOIN in SQL?,,,,,Used to combine rows from two or more tables,written

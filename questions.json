@@ -1,0 +1,732 @@
+{
+  "Python": {
+    "mcq": [
+      {
+        "question": "What is the output of 3//2?",
+        "options": [
+          "1",
+          "1.5",
+          "2",
+          "0"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "Which of these is a mutable data type?",
+        "options": [
+          "Tuple",
+          "List",
+          "String",
+          "Integer"
+        ],
+        "answer": "List"
+      },
+      {
+        "question": "What does the len() function do?",
+        "options": [
+          "Returns the length",
+          "Deletes variable",
+          "Adds values",
+          "Compares two variables"
+        ],
+        "answer": "Returns the length"
+      },
+      {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+          "function",
+          "define",
+          "def",
+          "fun"
+        ],
+        "answer": "def"
+      },
+      {
+        "question": "What is the output of type([])?",
+        "options": [
+          "<class 'list'>",
+          "<class 'dict'>",
+          "<class 'tuple'>",
+          "<class 'set'>"
+        ],
+        "answer": "<class 'list'>"
+      },
+      {
+        "question": "Which operator is used for exponentiation?",
+        "options": [
+          "^",
+          "**",
+          "//",
+          "%"
+        ],
+        "answer": "**"
+      },
+      {
+        "question": "What data type is the result of: 5 / 2?",
+        "options": [
+          "int",
+          "float",
+          "str",
+          "bool"
+        ],
+        "answer": "float"
+      },
+      {
+        "question": "Which statement is used to handle exceptions?",
+        "options": [
+          "try-except",
+          "catch",
+          "error",
+          "throw"
+        ],
+        "answer": "try-except"
+      },
+      {
+        "question": "What does the 'is' operator check?",
+        "options": [
+          "Equality",
+          "Identity",
+          "Value",
+          "None"
+        ],
+        "answer": "Identity"
+      },
+      {
+        "question": "What is the output of bool(0)?",
+        "options": [
+          "True",
+          "False",
+          "0",
+          "None"
+        ],
+        "answer": "False"
+      }
+    ],
+    "written": [
+      {
+        "question": "Explain the difference between list and tuple in Python.",
+        "answer": "Lists are mutable while tuples are immutable."
+      },
+      {
+        "question": "What is a dictionary in Python?",
+        "answer": "A dictionary is a collection of key-value pairs."
+      },
+      {
+        "question": "Explain the use of the 'with' statement.",
+        "answer": "It is used for resource management and exception handling."
+      },
+      {
+        "question": "What are lambda functions?",
+        "answer": "Anonymous functions defined using the lambda keyword."
+      },
+      {
+        "question": "How is memory managed in Python?",
+        "answer": "Memory is managed using reference counting and garbage collection."
+      },
+      {
+        "question": "What is list comprehension?",
+        "answer": "A concise way to create lists using a single line of code."
+      },
+      {
+        "question": "How do you handle exceptions in Python?",
+        "answer": "Using try-except blocks."
+      },
+      {
+        "question": "What is the difference between '==' and 'is'?",
+        "answer": "'==' checks equality while 'is' checks identity."
+      },
+      {
+        "question": "What is the purpose of __init__ in Python?",
+        "answer": "It is the constructor method in a Python class."
+      },
+      {
+        "question": "What is a Python module?",
+        "answer": "A file containing Python code (functions, classes, etc.) that can be imported."
+      }
+    ]
+  },
+  "NLP": {
+    "mcq": [
+      {
+        "question": "What does NLP stand for?",
+        "options": [
+          "Natural Language Processing",
+          "Neural Language Program",
+          "Natural Logic Processor",
+          "New Language Protocol"
+        ],
+        "answer": "Natural Language Processing"
+      },
+      {
+        "question": "Which library is widely used for NLP tasks in Python?",
+        "options": [
+          "TensorFlow",
+          "spaCy",
+          "Matplotlib",
+          "Seaborn"
+        ],
+        "answer": "spaCy"
+      },
+      {
+        "question": "What is tokenization in NLP?",
+        "options": [
+          "Data compression",
+          "Converting text into tokens",
+          "Encrypting text",
+          "Removing stopwords"
+        ],
+        "answer": "Converting text into tokens"
+      },
+      {
+        "question": "Which technique is used to reduce words to their base form?",
+        "options": [
+          "Vectorization",
+          "Lemmatization",
+          "Classification",
+          "Parsing"
+        ],
+        "answer": "Lemmatization"
+      },
+      {
+        "question": "What is the purpose of a stopword list?",
+        "options": [
+          "To highlight keywords",
+          "To remove common words",
+          "To sort data",
+          "To compress text"
+        ],
+        "answer": "To remove common words"
+      },
+      {
+        "question": "Which of these is a text vectorization technique?",
+        "options": [
+          "SVM",
+          "BoW",
+          "CNN",
+          "RNN"
+        ],
+        "answer": "BoW"
+      },
+      {
+        "question": "What does POS tagging do?",
+        "options": [
+          "Classifies text sentiment",
+          "Identifies parts of speech",
+          "Parses syntax trees",
+          "Extracts named entities"
+        ],
+        "answer": "Identifies parts of speech"
+      },
+      {
+        "question": "What is Named Entity Recognition (NER)?",
+        "options": [
+          "Identifying noun phrases",
+          "Extracting named entities like persons and places",
+          "Summarizing text",
+          "Tokenizing sentences"
+        ],
+        "answer": "Extracting named entities like persons and places"
+      },
+      {
+        "question": "Which model is used for word embeddings?",
+        "options": [
+          "Word2Vec",
+          "XGBoost",
+          "SVM",
+          "Random Forest"
+        ],
+        "answer": "Word2Vec"
+      },
+      {
+        "question": "What does TF-IDF stand for?",
+        "options": [
+          "Term Frequency - Inverse Document Frequency",
+          "Text Frequency - Inverse Depth Factor",
+          "Token Filter - Index Document Format",
+          "Topic Focus - Intent Document Flow"
+        ],
+        "answer": "Term Frequency - Inverse Document Frequency"
+      }
+    ],
+    "written": [
+      {
+        "question": "What is tokenization?",
+        "answer": "The process of breaking text into smaller units such as words or sentences."
+      },
+      {
+        "question": "Explain stemming vs lemmatization.",
+        "answer": "Stemming chops off word endings; lemmatization returns the base or dictionary form."
+      },
+      {
+        "question": "What is sentiment analysis?",
+        "answer": "The process of determining the emotional tone behind text."
+      },
+      {
+        "question": "Describe Named Entity Recognition (NER).",
+        "answer": "NER locates and classifies named entities in text into predefined categories."
+      },
+      {
+        "question": "What is POS tagging?",
+        "answer": "Assigning parts of speech to each word in a sentence."
+      },
+      {
+        "question": "What is a corpus in NLP?",
+        "answer": "A large collection of text used for training or analysis."
+      },
+      {
+        "question": "What is vectorization in NLP?",
+        "answer": "Converting text data into numerical format."
+      },
+      {
+        "question": "Explain TF-IDF.",
+        "answer": "A statistical measure that evaluates the importance of a word in a document relative to a collection of documents."
+      },
+      {
+        "question": "What is the role of embeddings in NLP?",
+        "answer": "They convert words into dense vector representations capturing semantic meaning."
+      },
+      {
+        "question": "What are n-grams?",
+        "answer": "Contiguous sequences of n items from a given text."
+      }
+    ]
+  },
+  "Deep Learning": {
+    "mcq": [
+      {
+        "question": "What is a perceptron?",
+        "options": [
+          "A type of loss function",
+          "A single layer neural network unit",
+          "A regularization method",
+          "A data preprocessing step"
+        ],
+        "answer": "A single layer neural network unit"
+      },
+      {
+        "question": "Which activation function is most commonly used in hidden layers?",
+        "options": [
+          "Sigmoid",
+          "ReLU",
+          "Softmax",
+          "Tanh"
+        ],
+        "answer": "ReLU"
+      },
+      {
+        "question": "What is the vanishing gradient problem?",
+        "options": [
+          "Loss becomes too large",
+          "Gradients become too small",
+          "Too many parameters",
+          "Slow computation"
+        ],
+        "answer": "Gradients become too small"
+      },
+      {
+        "question": "Which architecture is used for image classification?",
+        "options": [
+          "RNN",
+          "CNN",
+          "LSTM",
+          "GAN"
+        ],
+        "answer": "CNN"
+      },
+      {
+        "question": "What does dropout help prevent?",
+        "options": [
+          "Underfitting",
+          "Gradient clipping",
+          "Overfitting",
+          "Data leakage"
+        ],
+        "answer": "Overfitting"
+      },
+      {
+        "question": "Which layer is used for sequential data?",
+        "options": [
+          "Dense",
+          "Convolutional",
+          "LSTM",
+          "BatchNorm"
+        ],
+        "answer": "LSTM"
+      },
+      {
+        "question": "What is the purpose of the loss function?",
+        "options": [
+          "Update weights",
+          "Evaluate accuracy",
+          "Measure error",
+          "Initialize parameters"
+        ],
+        "answer": "Measure error"
+      },
+      {
+        "question": "Which library is popular for building deep learning models?",
+        "options": [
+          "Scikit-learn",
+          "Matplotlib",
+          "TensorFlow",
+          "Pandas"
+        ],
+        "answer": "TensorFlow"
+      },
+      {
+        "question": "What is backpropagation used for?",
+        "options": [
+          "Data augmentation",
+          "Visualizing layers",
+          "Updating weights",
+          "Creating neurons"
+        ],
+        "answer": "Updating weights"
+      },
+      {
+        "question": "Which optimizer adapts learning rate during training?",
+        "options": [
+          "SGD",
+          "RMSProp",
+          "Adam",
+          "Adagrad"
+        ],
+        "answer": "Adam"
+      }
+    ],
+    "written": [
+      {
+        "question": "What is the difference between CNN and RNN?",
+        "answer": "CNNs are used for spatial data like images, RNNs are used for sequential data like text."
+      },
+      {
+        "question": "Explain the ReLU activation function.",
+        "answer": "ReLU outputs the input directly if positive, otherwise returns zero."
+      },
+      {
+        "question": "What is overfitting in deep learning?",
+        "answer": "When a model performs well on training data but poorly on unseen data."
+      },
+      {
+        "question": "What is gradient descent?",
+        "answer": "An optimization algorithm to minimize loss by updating model weights."
+      },
+      {
+        "question": "Explain the concept of backpropagation.",
+        "answer": "It calculates gradients to update weights through the chain rule."
+      },
+      {
+        "question": "What are epochs in deep learning?",
+        "answer": "One full pass over the entire training dataset."
+      },
+      {
+        "question": "What is a convolutional layer?",
+        "answer": "A layer that applies filters to extract spatial features from data."
+      },
+      {
+        "question": "Define dropout regularization.",
+        "answer": "Randomly deactivating neurons during training to prevent overfitting."
+      },
+      {
+        "question": "What is the softmax function used for?",
+        "answer": "To convert logits into probability distribution for classification."
+      },
+      {
+        "question": "What is the difference between batch size and epoch?",
+        "answer": "Batch size is the number of samples per gradient update; epoch is a full training cycle."
+      }
+    ]
+  },
+  "Generative AI": {
+    "mcq": [
+      {
+        "question": "Which model type is used in text generation?",
+        "options": [
+          "CNN",
+          "GAN",
+          "RNN",
+          "LSTM"
+        ],
+        "answer": "LSTM"
+      },
+      {
+        "question": "What does a GAN consist of?",
+        "options": [
+          "Classifier and detector",
+          "Encoder and decoder",
+          "Generator and discriminator",
+          "Preprocessor and postprocessor"
+        ],
+        "answer": "Generator and discriminator"
+      },
+      {
+        "question": "Which library is commonly used for LLMs?",
+        "options": [
+          "Matplotlib",
+          "NumPy",
+          "Hugging Face Transformers",
+          "Seaborn"
+        ],
+        "answer": "Hugging Face Transformers"
+      },
+      {
+        "question": "What is the goal of a generative model?",
+        "options": [
+          "Classify data",
+          "Predict numeric values",
+          "Generate new samples",
+          "Reduce dimensionality"
+        ],
+        "answer": "Generate new samples"
+      },
+      {
+        "question": "What is the key feature of GPT models?",
+        "options": [
+          "Convolution",
+          "Autoregression",
+          "Clustering",
+          "Normalization"
+        ],
+        "answer": "Autoregression"
+      },
+      {
+        "question": "Which of the following is a diffusion model?",
+        "options": [
+          "Stable Diffusion",
+          "GPT-2",
+          "YOLO",
+          "BERT"
+        ],
+        "answer": "Stable Diffusion"
+      },
+      {
+        "question": "What does the 'fine-tuning' process do?",
+        "options": [
+          "Initialize weights",
+          "Train from scratch",
+          "Customize a pre-trained model",
+          "Compress model"
+        ],
+        "answer": "Customize a pre-trained model"
+      },
+      {
+        "question": "What is a use case of generative AI in design?",
+        "options": [
+          "Object Detection",
+          "Chatbots",
+          "Image Generation",
+          "Forecasting"
+        ],
+        "answer": "Image Generation"
+      },
+      {
+        "question": "Which model is not typically used for generative tasks?",
+        "options": [
+          "GAN",
+          "VAE",
+          "RNN",
+          "SVM"
+        ],
+        "answer": "SVM"
+      },
+      {
+        "question": "Which transformer-based model is popular for text generation?",
+        "options": [
+          "BERT",
+          "ResNet",
+          "GPT",
+          "YOLO"
+        ],
+        "answer": "GPT"
+      }
+    ],
+    "written": [
+      {
+        "question": "What is generative AI?",
+        "answer": "Generative AI refers to models that can generate new content such as text, images, or music."
+      },
+      {
+        "question": "Explain the working of a GAN.",
+        "answer": "A GAN has two networks: a generator that creates data and a discriminator that evaluates it."
+      },
+      {
+        "question": "What is prompt engineering?",
+        "answer": "Crafting inputs to effectively guide generative AI outputs."
+      },
+      {
+        "question": "What is the difference between BERT and GPT?",
+        "answer": "BERT is a bidirectional encoder for understanding, GPT is an autoregressive decoder for generation."
+      },
+      {
+        "question": "How are LLMs fine-tuned?",
+        "answer": "By training pre-trained models on domain-specific data with adjusted parameters."
+      },
+      {
+        "question": "What is a diffusion model?",
+        "answer": "A generative model that iteratively refines noise into data, often used for image generation."
+      },
+      {
+        "question": "What is the role of temperature in text generation?",
+        "answer": "Controls randomness in predictions \u2014 lower values make output more deterministic."
+      },
+      {
+        "question": "How does zero-shot learning work in LLMs?",
+        "answer": "The model performs tasks it wasn\u2019t explicitly trained for using contextual understanding."
+      },
+      {
+        "question": "What are hallucinations in LLMs?",
+        "answer": "Fabricated or incorrect outputs generated by language models."
+      },
+      {
+        "question": "Define tokenization in LLMs.",
+        "answer": "The process of breaking input text into smaller units (tokens) for model processing."
+      }
+    ]
+  },
+  "Agentic AI": {
+    "mcq": [
+      {
+        "question": "What is Agentic AI?",
+        "options": [
+          "AI that classifies objects",
+          "AI that acts autonomously to complete tasks",
+          "AI that translates text",
+          "AI that only predicts numbers"
+        ],
+        "answer": "AI that acts autonomously to complete tasks"
+      },
+      {
+        "question": "Which library supports multi-agent workflows?",
+        "options": [
+          "Matplotlib",
+          "LangGraph",
+          "Pandas",
+          "NumPy"
+        ],
+        "answer": "LangGraph"
+      },
+      {
+        "question": "What is the main component of an AI agent?",
+        "options": [
+          "Prompt",
+          "Environment",
+          "Policy",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "question": "Which platform is used to create agentic LLM apps?",
+        "options": [
+          "LangChain",
+          "PyTorch",
+          "Scikit-learn",
+          "Pandas"
+        ],
+        "answer": "LangChain"
+      },
+      {
+        "question": "What is a tool in Agentic AI?",
+        "options": [
+          "A neural net",
+          "A structured prompt",
+          "A function used by agents to complete tasks",
+          "A labeled dataset"
+        ],
+        "answer": "A function used by agents to complete tasks"
+      },
+      {
+        "question": "What is memory in Agentic AI?",
+        "options": [
+          "Data stored in RAM",
+          "Session context that the agent uses across interactions",
+          "A dictionary",
+          "A model weight"
+        ],
+        "answer": "Session context that the agent uses across interactions"
+      },
+      {
+        "question": "Which of these is NOT an agent framework?",
+        "options": [
+          "LangChain",
+          "Auto-GPT",
+          "LangGraph",
+          "NumPy"
+        ],
+        "answer": "NumPy"
+      },
+      {
+        "question": "What does a planner do in a multi-agent system?",
+        "options": [
+          "Executes the task",
+          "Creates task sequence",
+          "Stores memory",
+          "Preprocesses data"
+        ],
+        "answer": "Creates task sequence"
+      },
+      {
+        "question": "Which model powers most agentic systems today?",
+        "options": [
+          "ResNet",
+          "YOLO",
+          "LLMs like GPT",
+          "CNN"
+        ],
+        "answer": "LLMs like GPT"
+      },
+      {
+        "question": "What is the role of a reasoning loop?",
+        "options": [
+          "Helps agent decide next action iteratively",
+          "Loops through training data",
+          "Sorts output",
+          "Improves tokenization"
+        ],
+        "answer": "Helps agent decide next action iteratively"
+      }
+    ],
+    "written": [
+      {
+        "question": "What is Agentic AI?",
+        "answer": "AI that autonomously decides and acts based on goals, memory, tools, and reasoning."
+      },
+      {
+        "question": "Explain the role of tools in Agentic AI.",
+        "answer": "Tools are functions or APIs that agents call to perform tasks."
+      },
+      {
+        "question": "What is LangChain?",
+        "answer": "A framework for developing LLM-based agentic applications using tools and memory."
+      },
+      {
+        "question": "What does memory refer to in Agentic AI?",
+        "answer": "The context the agent maintains across interactions to improve responses."
+      },
+      {
+        "question": "Describe a multi-agent system.",
+        "answer": "A system where multiple agents collaborate or divide work to complete complex tasks."
+      },
+      {
+        "question": "What is an action loop in Agentic AI?",
+        "answer": "A feedback cycle where the agent thinks, acts, and observes to decide the next step."
+      },
+      {
+        "question": "What is a planner in AI agents?",
+        "answer": "A component that breaks goals into sub-tasks and sequences them for execution."
+      },
+      {
+        "question": "Define reasoning in agentic systems.",
+        "answer": "The process of decision-making through internal logic or LLM-based outputs."
+      },
+      {
+        "question": "What is LangGraph?",
+        "answer": "A framework for multi-agent workflows built on top of LangChain."
+      },
+      {
+        "question": "What is a use case of Agentic AI?",
+        "answer": "Autonomous research assistants performing multi-step information retrieval and summarization."
+      }
+    ]
+  }
+}

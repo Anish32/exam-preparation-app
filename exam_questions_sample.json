@@ -1,0 +1,17 @@
+[
+  {
+    "category": "Python",
+    "type": "MCQ",
+    "question": "What does the len() function do in Python?",
+    "options": ["Returns the number of items in an object", "Returns the length of a string", "Returns the size of a list", "None of the above"],
+    "answer": "Returns the number of items in an object",
+    "explanation": "len() returns the number of items in a container such as list, tuple, string etc."
+  },
+  {
+    "category": "Python",
+    "type": "Written",
+    "question": "What is the output of print(type([]))?",
+    "answer": "<class 'list'>",
+    "explanation": "[] creates a list in Python, so its type is <class 'list'>."
+  }
+]
